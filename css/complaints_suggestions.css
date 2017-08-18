@@ -1,0 +1,81 @@
+.menu{
+    background-position: -286px -21px;
+}
+
+.input-group{
+    width: inherit;
+    border-bottom: 1px #efe6e6 solid;
+    top: 5px;
+    position: relative;
+}
+
+.input-group span.input-user-addon{
+    position: absolute;
+    left: 20px;
+}
+
+.input-group span.input-user-addon.name{
+    background-position: -92px -17px;
+}
+
+.input-group span.input-user-addon.phone{
+    background-position: -137px -18px;
+}
+
+.input-group .input-wrap{
+    position: absolute;
+    left: 65px;
+    right: 40px;
+}
+
+.input-group .input-wrap input{
+    width: 100%;
+}
+
+.opinion{
+    background-color: red;
+    position: absolute;
+    top: 218px;
+    right: 52px;
+    left: 0;
+    height: 286px;
+}
+
+textarea{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 19px;
+    padding: 12px 26px;
+    height: 260px;
+    border-bottom: 2px #f1e3e3 solid;
+}
+
+.photograph{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 515px;
+    right: 0;
+    left: 0;
+    height: 154px;
+    border-bottom: 2px #f1e3e3 solid;
+}
+
+.photograph span{
+    background-image: url(../image/icon.png);
+    background-position: -9px -9px;
+    width: 81px;
+    height: 81px;
+    display: block;
+    position: relative;
+    top: 36px;
+    left: 28px;
+}
+
+.btn{
+    position: relative;
+    top: 505px;
+}

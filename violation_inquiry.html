@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>违章查询</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset= utf-8>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <style type="text/css">
+        .menu{
+            background-position: -286px -21px;
+        }
+
+        .form-group{
+            margin: 75px auto 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <button class="menu"></button>
+        <span>违章查询</span>
+    </div>
+    <img class="logo" src="image/logo.png">
+    <div class="form-group">
+        <select id="plate_num">
+            <option value='' disabled selected style='display:none;color: gray;'>车牌号</option>
+            <option value="湘SB945">湘SB945</option>
+            <option value="湘SB940">湘SB940</option>
+        </select>
+        <select id="area">
+            <option value='' disabled selected style='display:none;color: gray;'>所在区域</option>
+            <option value="湖南">湖南</option>
+            <option value="永州">永州</option>
+        </select>
+        <input type="text" id="frame_num" placeholder="车架号"/>
+        <input type="text" id="engine_num" placeholder="发动机号"/>
+    </div>
+    <button id="search" class="btn">立即查询</button>
+</body>
+</html>

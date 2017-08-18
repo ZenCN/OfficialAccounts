@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>注册页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset= utf-8>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <style type="text/css">
+        .form-group #identify {
+            background-color: #727272;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 13px 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <button class="menu"></button>
+        <span style="width: 75px;">注册页</span>
+    </div>
+    <img class="logo" src="image/logo.png">
+    <div class="form-group">
+        <input type="text" id="nick_name" placeholder="昵称"/>
+        <input type="text" id="password" placeholder="密码"/>
+        <input type="text" id="id_card" placeholder="身份证号"/>
+        <input type="text" id="phone" placeholder="手机号"/>
+        <input type="text" style="width: 55%;" id="identifying_code" placeholder="验证码"/>
+        <a href="#" id="identify">发送验证码</a>
+        <select id="sex">
+            <option value='' disabled selected style='display:none;color:gray;'>性别</option>
+            <option value="male">男</option>
+            <option value="female">女</option>
+        </select>
+        <select id="facilitator">
+            <option value='' disabled selected style='display:none;color:gray;'>首先售后服务店</option>
+            <option value="txq">天心区猎豹汽车售后服务中心</option>
+            <option value="xs">星沙中南汽车世界售后服务中心</option>
+        </select>
+    </div>
+    <button id="register" class="btn">立即注册</button>
+</body>
+</html>

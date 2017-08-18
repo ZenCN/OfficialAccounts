@@ -1,0 +1,114 @@
+.head{
+    background-color: initial;
+    height: 324px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+}
+
+.menu{
+    background-position: 0 41px;
+    background-color: initial;
+}
+
+.container{
+    position: absolute;
+    top: 298px;
+    right: 15px;
+    left: 15px;
+    font-size: 18px;
+}
+
+.input-group{
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.input-group span.input-user-addon{
+    position: relative;
+    top: 7px;
+    left: 25px;
+    width: 35px;
+    height: 35px;
+}
+
+.input-group span.input-user-addon.service-center{
+    background-position: -79px 44px;
+}
+.input-group span.input-user-addon.service-center-location{
+    background-position: -119px 44px;
+}
+.input-group span.input-user-addon.reservation_type{
+    background-position: -159px 44px;
+}
+.input-group span.input-user-addon.current-mileage{
+    background-position: -202px 44px;
+}
+.input-group span.input-user-addon.arrival-time{
+    background-position: -321px 44px;
+}
+.input-group span.input-user-addon.service-advisor{
+    background-position: -241px 45px;
+}
+.input-group span.input-user-addon.vehicle-info{
+    background-position: -278px 44px;
+}
+
+.input-group .input-wrap{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 78px;
+    height: 50px;
+}
+
+.input-group .input-wrap .middle-text{
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    right: 45px;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.input-group .input-wrap .select{
+    background-repeat: repeat-y;
+    background-position: 104px 50px;
+    height: 50px;
+    float: right;
+    width: 173px;
+    margin-right: 20px;
+    line-height: 50px;
+    color: #867676;
+    text-align: right;
+}
+.input-group .input-wrap .select.done{
+    background-image: none;
+}
+
+.textarea-wrap{
+    position: absolute;
+    top: 0;
+    right: 62px;
+    left: 0;
+}
+
+.textarea-wrap textarea{
+    width: 100%;
+    padding: 10px 31px;
+    border: 0;
+    font-size: 16px;
+    height: 66px;
+    resize: none;
+    outline: none;
+}
+
+.btn{
+    position: relative;
+    top: 55px;
+    width: 95%;
+}

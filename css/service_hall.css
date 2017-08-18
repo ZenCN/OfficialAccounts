@@ -1,0 +1,84 @@
+.service-group{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    bottom: 5%;
+    left: 10%;
+    margin: 0 auto;
+}
+
+.service-group a{
+    display: table-cell;
+    height: 210px;
+    border: 1px #d2cbcb double;
+    width: 49%;
+    float: left;
+}
+
+.service-group a span{
+    background-image: url("../image/icon.png");
+    display: block;
+    width: 173px;
+    height: 161px;
+    margin: 25px auto;
+}
+
+.service-group a.repair {
+    border-top: none;
+    border-left: none;
+}
+
+.service-group a.repair span{
+    top: 8px;
+    background-position: -9px -122px;
+}
+
+.service-group a.violation{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.service-group a.violation span{
+    background-position: -256px -121px;
+    top: 7px;
+}
+
+.service-group a.dealer{
+    border-top: none;
+    border-left: 0;
+}
+
+.service-group a.dealer span{
+    background-position: -15px -378px;
+    height: 163px;
+    top: 6px;
+}
+
+.service-group a.questionnaire{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.service-group a.questionnaire span{
+    background-position: -256px -380px;
+}
+
+.service-group a.shuttle{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.service-group a.shuttle span{
+    background-position: -17px -622px;
+}
+
+.service-group a.parts{
+    border: none;
+ }
+
+.service-group a.parts span{
+    background-position: -261px -622px;
+}

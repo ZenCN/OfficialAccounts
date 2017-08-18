@@ -1,0 +1,40 @@
+.head{
+    background-color: #ffffff;
+}
+.head span{
+    color: black;
+}
+
+.menu{
+    background-position: -346px -22px;
+    background-color: #ffffff;
+}
+
+.questionnaire{
+    display: block;
+    position: absolute;
+    right: 15px;
+    left: 15px;
+    height: 22%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.questionnaire.post-sale{
+    top: 7%;
+    background-image: url("../image/questionnaire/post-sale.png");
+}
+
+.questionnaire.service{
+    top: 30.25%;
+    background-image: url("../image/questionnaire/service.png");
+}
+.questionnaire.experience{
+    top: 53.5%;
+    background-image: url("../image/questionnaire/experience.png");
+}
+.questionnaire.pre-sale{
+    top: 76.75%;
+    background-image: url("../image/questionnaire/pre-sale.png");
+}
